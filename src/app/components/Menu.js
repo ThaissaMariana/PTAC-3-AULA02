@@ -6,26 +6,30 @@ import localizacao from "../localizacao/page";
 export default function Menu(){
     return(
         <header className={styles.cabecalho}>
+            <div className={styles.separar}>
             <Image
-                width={100}
-                height={100}
+                width={50}
+                height={50}
                 src={"https://www.ifms.edu.br/marcaifms.png"} />
-            <h1>Menu</h1>
-            <nav>
-                <ul>
+            </div>
+            <nav className="nav">
+                   <div className="compo">
                     <Link href="/">
-                        <li>Home</li>
+                        Home
                     </Link>
-
-                    <Link href="/registro">
-                        <li>Registrar</li>
-                    </Link>
-
-                    <Link href="/localizacao">
-                        <li>Localização</li>
-                    </Link>
+                    </div>
                     
-                </ul>
+                    <div className="compo">
+                    <Link href="/registro">
+                        Registrar
+                    </Link>
+                    </div>
+                    
+                    <div className="compo">
+                    <Link href="/localizacao">
+                        Localização
+                    </Link>
+                    </div>
             </nav>
         </header>
     );

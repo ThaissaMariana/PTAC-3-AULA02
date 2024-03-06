@@ -1,8 +1,29 @@
 .cabecalho{
     display: flex;
-    height: 100px;
-    background-color: rgb(196, 173, 218);
+    background-color: #88B257;
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
 }
+
 .cabecalho h1{
     margin-top: 0px;
 }
+
+.separar{
+    width: 70px;
+}
+
+.nav {
+    background-color: #46ACC2;
+    display: flex;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  .compo{
+    display:flex;
+    padding-right: 8px;
+  }
+
