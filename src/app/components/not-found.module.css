@@ -1,5 +1,5 @@
 .card{
-    background-color: #e6e0e0;
+    background-color: #464647;
     
     display: inline-block;
     width: 400px;
@@ -10,3 +10,11 @@
     text-align: center;
     font-family:'Paprika', sans-serif;
   }
+
+  .imagem{
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
