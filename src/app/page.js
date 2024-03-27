@@ -1,4 +1,4 @@
-
+'use server'
 const url = "https://back-end-ifms-plum.vercel.app/campi";
 
 export default async function Home() {
